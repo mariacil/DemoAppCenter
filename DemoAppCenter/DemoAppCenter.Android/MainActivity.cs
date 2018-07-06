@@ -14,6 +14,7 @@ namespace DemoAppCenter.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
+            //Test build
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
