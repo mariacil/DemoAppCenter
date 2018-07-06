@@ -13,8 +13,7 @@ namespace DemoAppCenter.Views
             InitializeComponent();
             try
             {
-                int titolo = 2;
-                Console.WriteLine((5 / (titolo - titolo)).ToString());
+                throw new Exception("errore");
             }
             catch (Exception ex)
             {
