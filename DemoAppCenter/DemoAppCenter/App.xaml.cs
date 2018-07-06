@@ -25,7 +25,7 @@ namespace DemoAppCenter
         protected override void OnStart()
         {
             AppCenter.Start("android=590cb6cb-fce2-491d-a9cc-73df432d67d9;" +
-                  "ios={Y08039752-a1a3-45c8-a235-1dea153a8950}",
+                            "ios=08039752-a1a3-45c8-a235-1dea153a8950",
                   typeof(Analytics), typeof(Crashes));
         }
 
